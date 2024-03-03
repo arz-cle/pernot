@@ -1,0 +1,64 @@
+:root {
+    --dark-blue: #163a72;
+    --medium-blue: #98add0;
+    --light-blue: #67daf9;
+    --red: #a20a1c;
+    --grey: #c8c8c8;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --font-family-title: "Alternate regular", sans-serif;
+    --font-family-courant: "Soho light", sans-serif;
+
+    --title-xl: 135px;
+
+}
+
+@font-face {
+  font-family: "Alternate regular";
+  src:
+    local("Alternate-Gothic-No3-D-Regular.otf"),
+    url("../fonts/Alternate-Gothic-No3-D-Regular.otf") format("opentype"),
+    url("Alternate-Gothic-No3-D-Regular.woff") format("woff"),
+    url("Alternate-Gothic-No3-D-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Soho light";
+  src:
+    local("SohoGothicPro-Light.otf"),
+    url("../fonts/SohoGothicPro-Light.otf") format("opentype"),
+    url("SohoGothicPro-Light.woff") format("woff"),
+    url("SohoGothicPro-Light.woff2") format("woff2");
+}
+
+/* Fonts */
+
+h1, h2 {
+  font-family: var(--font-family-title);
+}
+
+.title-xl {
+  font-size: var(--title-xl);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+/* Colors */
+
+ .dark-blue {
+  color: var(--dark-blue);
+ }
+ .medium-blue {
+  color: var(--medium-blue);
+ }
+
+ .light-blue {
+  color: var(--light-blue);
+ }
+
