@@ -183,7 +183,7 @@ header .btn-main a {
   align-items: center;
   align-items: stretch;
   width: 100%;
-  gap: 1%;
+  gap: 10px;
   color: #fff;
  }
 
@@ -196,7 +196,7 @@ header .btn-main a {
 
  .btn {
   border-radius: 5px;
-  padding: 5%;
+  padding: 10px;
   text-align: center;
  }
 
@@ -209,9 +209,9 @@ header .btn-main a {
   background-color: var(--red);
   color: var(--white);
  }
- /* .btn-main {
+ .btn-main {
   outline: 10px solid white;
- } */
+ }
 
  .absolute {
   position: absolute;

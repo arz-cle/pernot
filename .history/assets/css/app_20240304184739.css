@@ -161,20 +161,17 @@ main a {
 header a {
   font-family: var(--font-family-title);
   text-transform: uppercase;
-  /* font-size: clamp(0.938rem, 0.057rem + 2.708vw, 1.75rem); */
-  font-size: clamp(0.375rem, -0.331rem + 3.529vw, 1.875rem);
-
+  font-size: clamp(0.938rem, 0.057rem + 2.708vw, 1.75rem);
   display: block;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:1%;
+  gap:5px;
 }
 
 header .btn-main a {
-  /* font-size: clamp(1.125rem, -0.365rem + 4.583vw, 2.5rem) */
-  font-size: clamp(0.375rem, -0.331rem + 3.529vw, 1.875rem);
+  font-size: clamp(1.125rem, -0.365rem + 4.583vw, 2.5rem)
 }
 
  header nav ul {
@@ -183,7 +180,7 @@ header .btn-main a {
   align-items: center;
   align-items: stretch;
   width: 100%;
-  gap: 1%;
+  gap: 10px;
   color: #fff;
  }
 
@@ -196,7 +193,7 @@ header .btn-main a {
 
  .btn {
   border-radius: 5px;
-  padding: 5%;
+  padding: 10px;
   text-align: center;
  }
 
@@ -209,9 +206,9 @@ header .btn-main a {
   background-color: var(--red);
   color: var(--white);
  }
- /* .btn-main {
+ .btn-main {
   outline: 10px solid white;
- } */
+ }
 
  .absolute {
   position: absolute;
@@ -248,10 +245,9 @@ header .btn-main a {
  }
 
 
-
-
- /* @media screen and (max-width: 768px){
-  header {
-    transform: translate(0, -100%);
+ @media screen (max-width: 600px) {
+  .credits {
+    grid-template-columns: 1fr;
   }
- } */
+
+ }
