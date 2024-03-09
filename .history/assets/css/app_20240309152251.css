@@ -364,6 +364,7 @@ z-index: 10;
   align-items: center;
   flex-direction: column;
   padding: 5vw;
+  /* transition: all 5s; */
  }
 
  .close {
