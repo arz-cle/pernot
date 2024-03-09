@@ -8,7 +8,6 @@
     --font-family-title: "Alternate regular", sans-serif;
     --font-family-courant: "Soho light", sans-serif;
 
-    --title-xxl: clamp(5.938rem, 2.996rem + 14.706vw, 12.188rem);
     --title-xl: clamp(4.375rem, -0.026rem + 13.542vw, 8.438rem);
     --title-l: clamp(1.5rem, 0.552rem + 2.917vw, 2.375rem);
 
@@ -72,7 +71,7 @@ body {
 h1, h2 {
   font-family: var(--font-family-title);
   text-transform: uppercase;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 
@@ -111,12 +110,11 @@ main a {
 }
 
 
-.title-xxl {
-  font-size: var(--title-xxl);
-}
-
 .title-xl {
   font-size: var(--title-xl);
+
+
+
 }
 .title-l {
   font-size: var(--title-l);
@@ -230,9 +228,7 @@ header .btn-main a {
   background-color: var(--red);
   color: var(--white);
  }
- .card .text-color {
-  color: var(--grey);
- }
+
 
  .btn-dark-blue span.text-color{
 color: var(--light-blue);
@@ -240,8 +236,6 @@ color: var(--light-blue);
  .btn-selected span.text-color {
   color: var(--grey);
  }
-
-
  /* .btn-main {
   outline: 10px solid white;
  } */
@@ -256,18 +250,12 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 600px;
  }
-.lieux-mythiques .img-left {
-  width: 40vw;
-}
-
  .img-right {
   right: 0;
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 300px;
  }
 
  .img-center {
@@ -306,45 +294,16 @@ z-index: 10;
   max-width: 80px;
 }
 
-.card h3 {
-  color: white;
+.card a {
+  color: var(--white);
   display: block;
 }
 
 .card {
   background: var(--red);
-  padding: 10px 30px;
-  box-shadow: #122b56a5 10px 10px 0;
-  width: fit-content;
-  z-index: 100;
-
+  padding: 20px 30px;
+  box-shadow: var(--dark-blue) 10px 10px 0;
 }
-
-
-.card-left {
-  right: -5vw;
-  top: 0;
-}
-
-
-.card-right {
-  left: -15vw;
-  top: 80px;
-}
-.img-container {
-  z-index: 1;
-}
-.img-container-left {
-  bottom: 0;
-  left: 0;
-
-}
-.img-container-right {
-  bottom: 0;
-  right: 0;
-
-}
-
 
 
  /* @media screen and (max-width: 768px){

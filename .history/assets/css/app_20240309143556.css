@@ -256,7 +256,6 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 600px;
  }
 .lieux-mythiques .img-left {
   width: 40vw;
@@ -267,7 +266,6 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 300px;
  }
 
  .img-center {

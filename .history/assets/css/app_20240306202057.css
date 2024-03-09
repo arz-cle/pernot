@@ -8,7 +8,6 @@
     --font-family-title: "Alternate regular", sans-serif;
     --font-family-courant: "Soho light", sans-serif;
 
-    --title-xxl: clamp(5.938rem, 2.996rem + 14.706vw, 12.188rem);
     --title-xl: clamp(4.375rem, -0.026rem + 13.542vw, 8.438rem);
     --title-l: clamp(1.5rem, 0.552rem + 2.917vw, 2.375rem);
 
@@ -65,17 +64,11 @@ body {
 
 /* Fonts */
 
-.font-title {
-  font-family: var(--font-family-title);
-}
-
 h1, h2 {
   font-family: var(--font-family-title);
   text-transform: uppercase;
-  line-height: 0.8;
+  line-height: 1;
 }
-
-
 h3{
   font-family: var(--font-family-courant);
   text-transform: uppercase;
@@ -111,12 +104,11 @@ main a {
 }
 
 
-.title-xxl {
-  font-size: var(--title-xxl);
-}
-
 .title-xl {
   font-size: var(--title-xl);
+
+
+
 }
 .title-l {
   font-size: var(--title-l);
@@ -230,9 +222,7 @@ header .btn-main a {
   background-color: var(--red);
   color: var(--white);
  }
- .card .text-color {
-  color: var(--grey);
- }
+
 
  .btn-dark-blue span.text-color{
 color: var(--light-blue);
@@ -240,8 +230,6 @@ color: var(--light-blue);
  .btn-selected span.text-color {
   color: var(--grey);
  }
-
-
  /* .btn-main {
   outline: 10px solid white;
  } */
@@ -256,18 +244,12 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 600px;
  }
-.lieux-mythiques .img-left {
-  width: 40vw;
-}
-
  .img-right {
   right: 0;
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 300px;
  }
 
  .img-center {
@@ -288,63 +270,11 @@ color: var(--light-blue);
 
 .back {
   position: absolute;
-  top: 5px;
-  left: 0;
+  top: 10px;
+  left: 10px;
 z-index: 10;
 
 }
-
-.info {
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-  z-index: 10;
-
-}
-
-.info img {
-  max-width: 80px;
-}
-
-.card h3 {
-  color: white;
-  display: block;
-}
-
-.card {
-  background: var(--red);
-  padding: 10px 30px;
-  box-shadow: #122b56a5 10px 10px 0;
-  width: fit-content;
-  z-index: 100;
-
-}
-
-
-.card-left {
-  right: -5vw;
-  top: 0;
-}
-
-
-.card-right {
-  left: -15vw;
-  top: 80px;
-}
-.img-container {
-  z-index: 1;
-}
-.img-container-left {
-  bottom: 0;
-  left: 0;
-
-}
-.img-container-right {
-  bottom: 0;
-  right: 0;
-
-}
-
 
 
  /* @media screen and (max-width: 768px){

@@ -256,7 +256,6 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 600px;
  }
 .lieux-mythiques .img-left {
   width: 40vw;
@@ -267,7 +266,6 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 300px;
  }
 
  .img-center {
@@ -322,14 +320,14 @@ z-index: 10;
 
 
 .card-left {
-  right: -5vw;
+  right: -100px;
   top: 0;
 }
 
 
 .card-right {
-  left: -15vw;
-  top: 80px;
+  left: -150px;
+  top: 50px;
 }
 .img-container {
   z-index: 1;

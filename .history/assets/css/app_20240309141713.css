@@ -230,9 +230,7 @@ header .btn-main a {
   background-color: var(--red);
   color: var(--white);
  }
- .card .text-color {
-  color: var(--grey);
- }
+
 
  .btn-dark-blue span.text-color{
 color: var(--light-blue);
@@ -240,8 +238,6 @@ color: var(--light-blue);
  .btn-selected span.text-color {
   color: var(--grey);
  }
-
-
  /* .btn-main {
   outline: 10px solid white;
  } */
@@ -256,18 +252,12 @@ color: var(--light-blue);
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 600px;
  }
-.lieux-mythiques .img-left {
-  width: 40vw;
-}
-
  .img-right {
   right: 0;
   bottom: 0;
   z-index: 1;
   width: 25vw;
-  max-width: 300px;
  }
 
  .img-center {
@@ -322,29 +312,14 @@ z-index: 10;
 
 
 .card-left {
-  right: -5vw;
-  top: 0;
+  left: 10%;
+  bottom: 25%;
 }
-
 
 .card-right {
-  left: -15vw;
-  top: 80px;
+  right: 10%;
+  bottom: 50%;
 }
-.img-container {
-  z-index: 1;
-}
-.img-container-left {
-  bottom: 0;
-  left: 0;
-
-}
-.img-container-right {
-  bottom: 0;
-  right: 0;
-
-}
-
 
 
  /* @media screen and (max-width: 768px){
