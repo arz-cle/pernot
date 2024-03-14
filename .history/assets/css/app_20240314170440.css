@@ -53,10 +53,6 @@ main {
   position: relative;
 }
 
-a, a > img {
-  cursor: pointer;
-}
-
 .h-100 {
   height: 100%;
 }

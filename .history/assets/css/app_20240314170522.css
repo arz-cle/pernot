@@ -53,7 +53,7 @@ main {
   position: relative;
 }
 
-a, a > img {
+a {
   cursor: pointer;
 }
 
