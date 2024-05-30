@@ -71,7 +71,7 @@
     </div>
     <!-- Start Popup video  -->
     <div id="popup-video" class="overlay fixed pad-0 align-items-center">
-      <a href="#" class="absolute close close-left">
+      <a href="#" class="absolute close close-left" onclick="paused()">
         <img src="../../assets/img/lieux-mythiques/Close.png" alt="Icone fermer">
       </a>
       <div class="popup relative pad-0  ">
@@ -135,7 +135,12 @@
     <img src="../../assets/img/lieux-mythiques/Back.png" alt="Flèche retour">
   </a>
 
-
+  <script>
+    function paused() {
+      var video = document.querySelector('video');
+      video.pause();
+    }
+  </script>
 </body>
 
 </html>

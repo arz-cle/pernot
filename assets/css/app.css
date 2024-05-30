@@ -48,7 +48,6 @@
 
 main {
   margin: 10px 10px 0 10px;
-  /* height: 100%; */
   text-align: center;
   position: relative;
 }
@@ -481,9 +480,9 @@ align-items: center;
 }
 
 .popup-gallery img.big-img {
-  width: 100%;
+  width: auto;
+  height: 55vw;
   max-height: 70vh;
-
 }
 
 
@@ -550,3 +549,6 @@ video {
 img {
   pointer-events: none;
 }
+
+
+
